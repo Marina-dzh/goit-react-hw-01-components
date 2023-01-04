@@ -35,6 +35,12 @@ export const Tr= styled.tr`
     };
     :nth-of-type(even) {
   background-color: #03f7be81;
+
+}
+:hover{
+        cursor: pointer;
+    background-color: #289db4;
+    color: white;
 }
 `
 // export const = styled.div`

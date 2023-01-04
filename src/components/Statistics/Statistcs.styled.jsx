@@ -30,6 +30,10 @@ export const Item = styled.li`
     width: 120px;
     background-color: #f0fd026a;
  padding: 5px;
+ :hover{
+        cursor: pointer;
+    background-color: #fa9e00;
+}
     `
 
     export const Label = styled.span`

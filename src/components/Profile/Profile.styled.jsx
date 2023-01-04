@@ -49,5 +49,9 @@ font-size: smaller;
     border-radius: 8px;
     width: 200px;
     padding: 5px;
+    :hover{
+        cursor: pointer;
+    background-color: #b4282883;
+}
 
 `

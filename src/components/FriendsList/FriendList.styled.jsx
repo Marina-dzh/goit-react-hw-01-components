@@ -22,5 +22,9 @@ export const Item = styled.li`
         width: 80%;
          margin-left: auto;
     margin-right: auto;
+    :hover{
+        cursor: pointer;
+    background-color: #9cf6febd;
+}
     `
 
