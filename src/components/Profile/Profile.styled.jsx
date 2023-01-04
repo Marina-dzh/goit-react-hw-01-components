@@ -15,13 +15,23 @@ export const Container = styled.div`  background-color: #d7a6ffd3;
     margin-right: auto;
     text-align:center;
     min-width: 400px;
+     :hover{
+        
+        box-shadow: 6px 6px 29px 8px rgba(48,48,48,0.47);
+    }
 
     `;
 
 
 export const Name = styled.p`
+${reuse};
+width:fit-content;
+margin-left: auto;
+    margin-right: auto;
     font-weight: bold;
-    ${reuse}
+    :hover{
+        cursor: pointer;
+    color: white;}
 `;
 
 export const Tag = styled.p`
@@ -52,6 +62,7 @@ font-size: smaller;
     :hover{
         cursor: pointer;
     background-color: #b4282883;
+    color: white;
 }
 
 `

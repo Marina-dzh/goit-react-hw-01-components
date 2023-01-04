@@ -15,6 +15,10 @@ export const Table = styled.table`
     text-align:center;
     min-width: 400px;
     border-radius: 8px;
+     :hover{
+        border: 1px solid black;
+        box-shadow: 6px 6px 29px 8px rgba(48,48,48,0.47);
+    }
     
 `
 export const Th= styled.th`

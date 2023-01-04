@@ -11,6 +11,10 @@ margin-top: 40px;
     margin-right: auto;
     text-align:center;
     min-width: 400px;
+     :hover{
+        
+        box-shadow: 6px 6px 29px 8px rgba(48,48,48,0.47);
+    }
     `;
 
 export const StatList = styled.ul`
