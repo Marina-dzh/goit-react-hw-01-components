@@ -36,6 +36,7 @@ export const Item = styled.li`
  padding: 5px;
  :hover{
         cursor: pointer;
+        border: 2px solid black; 
     background-color: #fa9e00;
 }
     `
